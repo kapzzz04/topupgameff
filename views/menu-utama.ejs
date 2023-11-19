@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ini halama operator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,700;1,600&family=Vina+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="container-fluid d-flex m-auto">
+        <a class="navbar-brand text-white" href="#">AlpiceShop</a>
+
+        <button
+          class="navbar-toggler bg-white"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <button
+              type="button"
+              class="btn-close bg-light"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link text-white d-flex m-auto" href="menu-utama"
+                  ><svg
+                    class="me-2"
+                    data-v-5a7ae982=""
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.1289 9.35156V20.6016H3.87109V9.35156"
+                      stroke="white"
+                      stroke-width="1.39825"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M13.4492 13.2578H10.5664L9.125 15.3906L9.10938 20.6055H14.8711L14.8906 15.3906L13.4492 13.2578Z"
+                      stroke="white"
+                      stroke-width="1.39825"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path
+                      d="M22.0274 10.9297L14.5 3.39453H9.79297L1.97266 10.9297"
+                      stroke="white"
+                      stroke-width="1.39825"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path></svg
+                  >Halaman Utama</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="laporan"
+                  ><svg
+                    class="me-2"
+                    data-v-5a7ae982=""
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8 16H22M2 8H16H2ZM15 3L19 7V9L15 13V3ZM9 11L5 15V17L9 21V11Z"
+                      stroke="#EAE8F7"
+                      stroke-width="1.2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path></svg
+                  >Laporan</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex mt-2 flex-column p-5">
+              <a href="login" class="btn btn-light btn-lg">Keluar</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid text-white">
+      <div class="row">
+        <div class="col d-flex flex-column">
+          <img src="../img/banner.jpg" alt="banner free fire" />
+          <h2>Free Fire Top-up</h2>
+          <div class="iklan-one d-flex">
+            <div>
+              <span>
+                <svg
+                  data-v-911ab42c=""
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 7L13.3225 10.1797L16.7553 10.4549L14.1399 12.6953L14.9389 16.0451L12 14.25L9.06107 16.0451L9.86012 12.6953L7.24472 10.4549L10.6775 10.1797L12 7Z"
+                    stroke="#280031"
+                    stroke-width="1.2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M12 3L18.364 5.63604L21 12L18.364 18.364L12 21L5.63604 18.364L3 12L5.63604 5.63604L12 3Z"
+                    stroke="#280031"
+                    stroke-width="1.2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </span>
+              <span>Pembayaran yang Aman</span>
+            </div>
+            <div>
+              <span data-v-911ab42c=""
+                ><svg
+                  data-v-9fe12e4e=""
+                  data-v-911ab42c=""
+                  width="22"
+                  height="22"
+                  viewBox="0 0 22 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    data-v-9fe12e4e=""
+                    d="M19.3417 14.0068L20.6924 11.0156L17.8524 4.15845L10.9947 1.31781L4.13751 4.15845L1.29688 11.0156L4.13751 17.8727L10.9947 20.7134"
+                    stroke="#280031"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    data-v-9fe12e4e=""
+                    d="M19.6502 8.93591H16.8859C16.3333 9.66561 16.0342 10.5559 16.0342 11.4713C16.0342 12.3866 16.3333 13.2769 16.8859 14.0066H19.2728"
+                    stroke="#280031"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    data-v-9fe12e4e=""
+                    d="M2.41772 8.93591H5.18197C5.73463 9.66561 6.03373 10.5559 6.03373 11.4713C6.03373 12.3866 5.73463 13.2769 5.18197 14.0066H2.79516"
+                    stroke="#280031"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path></svg
+              ></span>
+              <span>Layanan Pelanggan 24/7</span>
+            </div>
+          </div>
+
+          <div class="paragraf-1">
+            <p>
+              Beli Diamond Free Fire (FF) hanya dalam hitungan detik! Cukup
+              masukkan Player ID Free Fire Kamu, pilih jumlah Diamond yang Kamu
+              inginkan, selesaikan pembayaran, dan Diamond tersebut akan
+              langsung masuk ke akun Free Fire Kamu.
+            </p>
+
+            <p>
+              Tanpa registrasi atau login, Kamu bisa langsung top up Diamond
+              Free Fire hari ini dengan mudah di Codashop!
+            </p>
+
+            <p>
+              Harga sudah termasuk PPN. Informasi tambahan, untuk transaksi
+              menggunakan Telkomsel akan dikenakan biaya tambahan pajak
+            </p>
+
+            <p>Download dan mainkan Free Fire sekarang!</p>
+            <div class="download-app d-flex">
+              <a
+                class="shop-content--badge"
+                href="https://play.google.com/store/apps/details?id=com.dts.freefireth"
+                rel="noopener"
+                target="_blank"
+              >
+                <img
+                  src="https://d1qgcmfii0ptfa.cloudfront.net/S/content/mobile/images/google_play_coda.png"
+                  alt="Download on Google Play"
+                />
+              </a>
+              <a
+                class="shop-content--badge"
+                href="https://apps.apple.com/US/app/id1300146617?mt=8"
+                rel="noopener"
+                target="_blank"
+              >
+                <img
+                  src="https://d1qgcmfii0ptfa.cloudfront.net/S/content/mobile/images/app_store_coda.png"
+                  alt="Download on the App Store"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-8">
+          <div class="id-ff">
+            <span class="judul-id"
+              ><span class="id-one">1</span> Masukkan Player ID</span
+            >
+            <form class="mt-4 mb-2">
+              <input
+                class="control-input"
+                type="tel"
+                required
+                maxlength="12"
+                placeholder="Masukan Player ID"
+              />
+            </form>
+            <div class="tampil-user">
+              <span class="text-success">Selamat Datang</span>
+              <h5 class="ts-5"></h5>
+            </div>
+            <p>
+              Untuk menemukan ID Anda, klik pada ikon karakter. User ID
+              tercantum di bawah nama karakter Anda. Contoh: '5363266446'.
+            </p>
+          </div>
+          <div class="diamond-ff">
+            <span class="judul-id"
+              ><span class="id-one">2</span> Pilih Nominal Top Up</span
+            >
+            <div class="card-dm mt-3">
+              <ul class="d-flex container-ul">
+                <li class="con-li">
+                  <div class="child-card d-flex flex-column con-li">
+                    <img
+                      data-v-b7dcb2d2=""
+                      alt="5 Diamonds"
+                      src="https://cdn1.codashop.com/S/content/common/images/denom-image/FreeFire/Freefire_diamonds.png"
+                      class="form-section__denom-img con-li"
+                    />
+                    <span class="dm-nom con-li">5 Diamonds</span>
+                    <div class="nominal d-flex flex-column con-li">
+                      <span class="s-dari con-li">Dari</span
+                      ><span class="s-rupe con-li">Rp. 1.000</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="con-li">
+                  <div class="child-card d-flex flex-column con-li">
+                    <img
+                      data-v-b7dcb2d2=""
+                      alt="12 Diamonds"
+                      src="https://cdn1.codashop.com/S/content/common/images/denom-image/FreeFire/Freefire_diamonds.png"
+                      class="form-section__denom-img con-li"
+                    />
+                    <span class="dm-nom con-li">12 Diamonds</span>
+                    <div class="nominal d-flex flex-column con-li">
+                      <span class="s-dari con-li">Dari</span
+                      ><span class="s-rupe con-li">Rp. 2.000</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="con-li">
+                  <div class="child-card d-flex flex-column con-li">
+                    <img
+                      data-v-b7dcb2d2=""
+                      alt="50 Diamonds"
+                      src="https://cdn1.codashop.com/S/content/common/images/denom-image/FreeFire/Freefire_diamonds.png"
+                      class="form-section__denom-img con-li"
+                    />
+                    <span class="dm-nom con-li">50 Diamonds</span>
+                    <div class="nominal d-flex flex-column con-li">
+                      <span class="s-dari con-li">Dari</span
+                      ><span class="s-rupe con-li">Rp. 8.000</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="con-li">
+                  <div class="child-card d-flex flex-column con-li">
+                    <img
+                      data-v-b7dcb2d2=""
+                      alt="70 Diamonds"
+                      src="https://cdn1.codashop.com/S/content/common/images/denom-image/FreeFire/Freefire_diamonds.png"
+                      class="form-section__denom-img con-li"
+                    />
+                    <span class="dm-nom con-li">70 Diamonds</span>
+                    <div class="nominal d-flex flex-column con-li">
+                      <span class="s-dari con-li">Dari</span
+                      ><span class="s-rupe con-li">Rp. 10.000</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="con-li">
+                  <div class="child-card d-flex flex-column con-li">
+                    <img
+                      data-v-b7dcb2d2=""
+                      alt="140 Diamonds"
+                      src="https://cdn1.codashop.com/S/content/common/images/denom-image/FreeFire/Freefire_diamonds.png"
+                      class="form-section__denom-img con-li"
+                    />
+                    <span class="dm-nom con-li">140 Diamonds</span>
+                    <div class="nominal d-flex flex-column con-li">
+                      <span class="s-dari con-li">Dari</span
+                      ><span class="s-rupe con-li">Rp. 20.000</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="con-li">
+                  <div class="child-card d-flex flex-column con-li">
+                    <img
+                      data-v-b7dcb2d2=""
+                      alt="355 Diamonds"
+                      src="https://cdn1.codashop.com/S/content/common/images/denom-image/FreeFire/Freefire_diamonds.png"
+                      class="form-section__denom-img con-li"
+                    />
+                    <span class="dm-nom con-li">355 Diamonds</span>
+                    <div class="nominal d-flex flex-column con-li">
+                      <span class="s-dari con-li">Dari</span
+                      ><span class="s-rupe con-li">Rp. 50.000</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="con-li">
+                  <div class="child-card d-flex flex-column con-li">
+                    <img
+                      data-v-b7dcb2d2=""
+                      alt="720 Diamonds"
+                      src="https://cdn1.codashop.com/S/content/common/images/denom-image/FreeFire/Freefire_diamonds.png"
+                      class="form-section__denom-img con-li"
+                    />
+                    <span class="dm-nom con-li">720 Diamonds</span>
+                    <div class="nominal d-flex flex-column con-li">
+                      <span class="s-dari con-li">Dari</span
+                      ><span class="s-rupe con-li">Rp. 100.000</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="con-li">
+                  <div class="child-card d-flex flex-column con-li">
+                    <img
+                      data-v-b7dcb2d2=""
+                      alt="1450 Diamonds"
+                      src="https://cdn1.codashop.com/S/content/common/images/denom-image/FreeFire/Freefire_diamonds.png"
+                      class="form-section__denom-img con-li"
+                    />
+                    <span class="dm-nom con-li">1450 Diamonds</span>
+                    <div class="nominal d-flex flex-column con-li">
+                      <span class="s-dari con-li">Dari</span
+                      ><span class="s-rupe con-li">Rp. 200.000</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="con-li">
+                  <div class="child-card d-flex flex-column con-li">
+                    <img
+                      data-v-b7dcb2d2=""
+                      alt="2180 Diamonds"
+                      src="https://cdn1.codashop.com/S/content/common/images/denom-image/FreeFire/Freefire_diamonds.png"
+                      class="form-section__denom-img con-li"
+                    />
+                    <span class="dm-nom con-li">2180 Diamonds</span>
+                    <div class="nominal d-flex flex-column con-li">
+                      <span class="s-dari con-li">Dari</span
+                      ><span class="s-rupe con-li">Rp. 300.000</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="con-li">
+                  <div class="child-card d-flex flex-column con-li">
+                    <img
+                      data-v-b7dcb2d2=""
+                      alt="3640 Diamonds"
+                      src="https://cdn1.codashop.com/S/content/common/images/denom-image/FreeFire/Freefire_diamonds.png"
+                      class="form-section__denom-img con-li"
+                    />
+                    <span class="dm-nom con-li">3640 Diamonds</span>
+                    <div class="nominal d-flex flex-column con-li">
+                      <span class="s-dari con-li">Dari</span
+                      ><span class="s-rupe con-li">Rp. 500.000</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="detail d-flex flex-column mt-4">
+            <span class="judul-id"
+              ><span class="id-one">3</span>Pembayaran</span
+            >
+            <button class="bt-b btn mt-3">CekId</button>
+            <button
+              class="bt-b btn mt-3 modal-btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Beli Sekarang
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    ></div>
+    <!-- END Modal -->
+
+    <footer class="mt-2">
+      <div class="container-fluid text-white text-center">
+        <p>Copyright By <span class="copy">&copy;AlpiceShop</span> 2023</p>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/scriptM.js"></script>
+  </body>
+</html>
