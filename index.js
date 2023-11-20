@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
 var cors = require("cors");
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // gunakan ejs
 app.set("view engine", "ejs");
